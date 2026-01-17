@@ -10,6 +10,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **Run a single test file**: `pytest tests/test_calculator.py`
 - **Run a single test**: `pytest tests/test_calculator.py::test_add`
 - **Install dependencies**: `pip install -r requirements.txt`
+- **Setup pre-commit hooks**: `pre-commit install`
 
 ## Architecture
 
