@@ -1,6 +1,7 @@
 # testclaude
 
 ![CI](https://github.com/astriker/testclaude/actions/workflows/ci.yml/badge.svg)
+[![codecov](https://codecov.io/gh/astriker/testclaude/branch/master/graph/badge.svg)](https://codecov.io/gh/astriker/testclaude)
 
 A simple Python calculator library with pytest tests.
 
