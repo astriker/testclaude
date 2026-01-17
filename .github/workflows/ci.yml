@@ -26,6 +26,9 @@ jobs:
       - name: Lint
         run: ruff check .
 
+      - name: Type check
+        run: mypy src
+
       - name: Run tests
         run: pytest --cov=src --cov-report=term-missing --cov-report=xml
 
