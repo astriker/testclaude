@@ -1,5 +1,6 @@
 import pytest
-from src.calculator import add, subtract, multiply, divide, power
+
+from src.calculator import add, divide, multiply, power, subtract
 
 
 def test_add():
