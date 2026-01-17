@@ -4,6 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Build/Test Commands
 
+- **Lint**: `ruff check .`
 - **Run all tests**: `pytest`
 - **Run tests with coverage**: `pytest --cov=src`
 - **Run a single test file**: `pytest tests/test_calculator.py`
